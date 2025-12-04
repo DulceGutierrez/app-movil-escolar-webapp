@@ -56,11 +56,22 @@ Todos estos servicios se integran mediante un Facade Service, que centraliza la 
 ## Funcionalidades Principales
 
 - Gestión de información de alumnos, maestros y materias.
+- *Operaciones CRUD*
 - Componentes modulares y reutilizables.
 - Uso de modales y elementos visuales comunes para interacción con el usuario.
 - Servicios REST segmentados por entidad para una gestión clara.
 - Compatibilidad con paginación en español y estilos centralizados.
 - Arquitectura preparada para escalar y agregar nuevas funcionalidades.
+
+---
+
+## Operaciones CRUD
+La aplicación implementa operaciones CRUD para la administración de entidades escolares, permitiendo gestionar de forma completa el ciclo de vida de la información. Estas operaciones incluyen:
+- **Crear** nuevos registros (alumnos, maestros, materias y otros recursos administrados).
+- **Leer** y consultar datos mediante listados, vistas detalladas o búsquedas filtradas.
+- **Actualizar** información existente para mantener los datos consistentes y vigentes.
+- **Eliminar** registros cuando ya no son necesarios dentro del sistema.
+Estas operaciones se ejecutan a través de los servicios internos de Angular y se coordinan con la API externa, asegurando que la información permanezca sincronizada entre el frontend y el backend.
 
 ---
 
