@@ -85,15 +85,6 @@ La aplicación emplea SCSS como sistema de estilos, permitiendo:
 
 ---
 
-## Estilos y Diseño
-La aplicación emplea SCSS como sistema de estilos, permitiendo:
-- Definición de variables globales.
-- Reutilización de mixins.
-- Encapsulamiento de estilos por componente.
-- Mantenimiento limpio y ordenado a medida que crece el proyecto.
-
----
-
 ## Lineamientos para Contribución
 1. Crear componentes siguiendo los estándares de Angular.
 2. Registrar nuevas rutas en app-routing.module.ts.
