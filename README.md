@@ -45,15 +45,6 @@ También se pueden generar directivas, pipes, guards, clases e interfaces.
 
 ---
 
-## Build de Producción
-Construir el proyecto:
-```bash
-ng build serve
-```
-Los artefactos generados se almacenan en el directorio dist/.
-
----
-
 ## Integración con Servicios REST
 
 La aplicación implementa una serie de servicios dedicados a la gestión de cada entidad del sistema (alumnos, maestros, administradores, materias).
