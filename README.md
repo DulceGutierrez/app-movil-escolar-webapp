@@ -71,6 +71,7 @@ La aplicación implementa operaciones CRUD para la administración de entidades 
 - **Leer** y consultar datos mediante listados, vistas detalladas o búsquedas filtradas.
 - **Actualizar** información existente para mantener los datos consistentes y vigentes.
 - **Eliminar** registros cuando ya no son necesarios dentro del sistema.
+
 Estas operaciones se ejecutan a través de los servicios internos de Angular y se coordinan con la API externa, asegurando que la información permanezca sincronizada entre el frontend y el backend.
 
 ---
